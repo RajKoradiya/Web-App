@@ -1,0 +1,104 @@
+.navbar {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: #000000;
+  flex-direction: row-reverse;
+  box-shadow: 0 0 20px 0 black;
+}
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  color: #000000;
+}
+
+
+.navbar .nav a {
+  margin: 1rem;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+  color: blue;
+  border-bottom: 2px solid lightseagreen;
+  transition: 400ms;
+  
+}
+
+.navbar img {
+  height: 25px;
+  width: 25px;
+}
+
+.hadding {
+  display: flex;
+}
+
+.navbar .hadding a {
+  display: flex;
+  margin-left: 0.3em;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.photo {
+  border-radius: 50%;
+  height: 20em;
+  width: 20em;
+}
+
+.ig {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 7em;
+  margin-right: 10em;
+}
+
+body {
+  background-image: url("./image/background.jpg");
+}
+
+span {
+  font-size: minmax(0.5em,1em);
+}
+.ig .text {
+  font-size: 3em;
+  margin-top: 1.2em;
+  margin-right: 10.5em;
+  flex-direction: none;
+}
+
+h6 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4vh;
+  margin-top: 0.5em;
+}
+
+span {
+  color: rgb(218, 58, 58);
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  margin-left: 13em;
+  margin-top: 3em;
+  /* flex-direction: ; */
+}
+
+.foot img {
+  height: 45px;
+  width: 45px;
+  margin: 0px 10px;
+}
+
+
+
